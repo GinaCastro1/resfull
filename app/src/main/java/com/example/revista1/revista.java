@@ -12,7 +12,6 @@ public class revista {
         anio =  a.getString("anio");
         mes = a.getString("mes");
         urlportada = "https://uteq.edu.ec/assets/images/newspapers/"+ a.getString("urlportada").toString();
-
         urlpw = a.getString("urlpw").toString() ;
     }
 

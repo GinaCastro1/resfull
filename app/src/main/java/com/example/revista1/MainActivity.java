@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity implements Asynchtask {
         WebService ws= new WebService("https://apiws.uteq.edu.ec/h6RPoSoRaah0Y4Bah28eew/functions/information/entity/5",
                 datos, MainActivity.this, MainActivity.this);
         ws.execute("GET","Bearer ",
-                "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJfeDF1c2VyZGV2IiwiaWF0IjoxNzUyODY4NjIwLCJleHAiOjE3NTI5NTUwMjB9.tZPdC3XwEOhgHZz_QFk5TQa2SrFXimlgVSFa6cwhiwY" );
+                "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJfeDF1c2VyZGV2IiwiaWF0IjoxNzUzMDY0Mjk2LCJleHAiOjE3NTMxNTA2OTZ9.eHNQgDhFGAoQ_t0DZZb7jqMB1NyQ8juzsKjfQDZKIyo" );
     }
 
     @Override
